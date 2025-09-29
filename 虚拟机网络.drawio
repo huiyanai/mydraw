@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
+  <diagram name="第 1 页" id="2ta31EgjfE0BkxTUTMww">
+    <mxGraphModel dx="938" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eV1Tw70UbJQE_gw8Skzc-2" value="&lt;br&gt;windows&lt;div&gt;IP:192.168.1.x&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacing=-10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="400" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eV1Tw70UbJQE_gw8Skzc-4" value="虚拟网络(NAT)&lt;div&gt;网关IP：172.x.x.1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="175" y="190" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eV1Tw70UbJQE_gw8Skzc-5" value="虚拟机WSL2-Ubuntu&lt;div&gt;IP:172.x.x.y(动态分配)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="175" y="260" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eV1Tw70UbJQE_gw8Skzc-6" value="数据库：&lt;div&gt;Postgresql(监听5432)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="215" y="310" width="270" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
